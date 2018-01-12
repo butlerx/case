@@ -1,0 +1,22 @@
+1.6
+2.	x%2=0
+	x<=0
+	x>=10
+	x<10
+	x==0 && y==0
+	x%2=0
+3.it says the line is infinite
+it would not give decimals as answer 
+it is 0 but sats nan
+it is 1 
+6.	x%2=0 && y%2=0
+	x%2!=0 && y%2!=0
+	(x%2=0 && y%2=0)||(x%2!=0 && y%2!=0)
+	
+exam q
+3.	x=1 y=0 AB
+	x=1 y=1 first will print ABC , second AB
+4.	3
+	6
+	5
+	

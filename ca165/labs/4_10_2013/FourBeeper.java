@@ -1,0 +1,62 @@
+public class FourBeeper {
+  public static void main(String[] args) {
+    World circus = new World();
+
+    Robot rob1 = new Robot();
+    Robot rob2 = new Robot();
+    Robot rob3 = new Robot();
+    Robot rob4 = new Robot();
+    circus.add(rob1, 7, 8, "west");
+    circus.add(rob2, 6, 7, "south");
+    circus.add(rob3, 7, 6, "east");
+    circus.add(rob4, 8, 7, "north");
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.turnLeft();
+    rob2.turnLeft();
+    rob3.turnLeft();
+    rob4.turnLeft();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.turnLeft();
+    rob2.turnLeft();
+    rob3.turnLeft();
+    rob4.turnLeft();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.turnLeft();
+    rob2.turnLeft();
+    rob3.turnLeft();
+    rob4.turnLeft();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+    rob1.turnLeft();
+    rob2.turnLeft();
+    rob3.turnLeft();
+    rob4.turnLeft();
+    rob1.move();
+    rob2.move();
+    rob3.move();
+    rob4.move();
+  }
+}
